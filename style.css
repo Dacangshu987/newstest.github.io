@@ -74,6 +74,13 @@ button:hover {
     margin-top: 10px;
 }
 
+img {
+    max-width: 100%; /* 图片最大宽度为其容器宽度 */
+    max-height: 300px; /* 最大高度为300px */
+    width: auto; /* 根据高度自动调整宽度，保持比例 */
+    height: auto;
+}
+
 /* 页面底部 */
 footer {
     background-color: #2c3e50;
