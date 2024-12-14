@@ -75,10 +75,9 @@ button:hover {
 }
 
 img {
-    max-width: 100%; /* 图片最大宽度为其容器宽度 */
-    max-height: 300px; /* 最大高度为300px */
-    width: auto; /* 根据高度自动调整宽度，保持比例 */
-    height: auto;
+    width: 100%; /* 图片宽度占父容器的100% */
+    height: auto; /* 根据宽度自动调整高度 */
+    max-width: 500px; /* 最大宽度为500px */
 }
 
 /* 页面底部 */
